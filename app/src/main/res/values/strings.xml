@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GraphicNovelApp</string>
+    <string name="love_and_rockets">Love and Rockets</string>
+    <string name="title_activity_tell_astory">TellAStory</string>
+</resources>
