@@ -2,4 +2,8 @@
     <string name="app_name">GraphicNovelApp</string>
     <string name="love_and_rockets">Love and Rockets</string>
     <string name="title_activity_tell_astory">TellAStory</string>
+    <string name="tell_a_story">99 Ways To Tell A Story</string>
+    <string name="summer">Summer of Love</string>
+    <string name="oulipo">Oulipo Compendium</string>
+    <string name="childs_life">A Child\'s Life</string>
 </resources>

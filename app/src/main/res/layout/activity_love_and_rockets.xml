@@ -26,7 +26,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/larNotes"/>
+        android:id="@+id/larNotes"
+        android:hint="Notes"/>
 
 
 </RelativeLayout>

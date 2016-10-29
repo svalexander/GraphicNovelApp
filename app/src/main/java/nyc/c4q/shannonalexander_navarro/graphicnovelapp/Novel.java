@@ -6,11 +6,8 @@ package nyc.c4q.shannonalexander_navarro.graphicnovelapp;
 
 public class Novel {
     String title;
-    //String url;
 
     Novel(String title){
         this.title = title;
-        //this.url = url
-
     }
 }

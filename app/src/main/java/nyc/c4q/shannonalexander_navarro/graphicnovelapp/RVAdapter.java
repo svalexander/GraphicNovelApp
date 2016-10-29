@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -41,7 +42,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PostViewHolder> {
         postViewHolder.textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //    Toast.makeText(postViewHolder.textView.getContext(), postViewHolder.textView.getText().toString(), Toast.LENGTH_SHORT).show();
+                   Toast.makeText(postViewHolder.textView.getContext(), postViewHolder.textView.getText().toString(), Toast.LENGTH_SHORT).show();
                 if (postViewHolder.textView.getText().toString().equals("Love and Rockets: Music for Mechanics")) {
                     Intent intent = new Intent(context, LoveAndRockets.class);
                     context.startActivity(intent);

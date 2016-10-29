@@ -9,5 +9,23 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="nyc.c4q.shannonalexander_navarro.graphicnovelapp.SummerOfLove">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/summer_of_love"
+        android:text="@string/summer"
+        android:textAllCaps="true"
+        android:textColor="@color/purple"
+        android:gravity="center"/>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/larCover" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/larNotes"
+        android:hint="Notes"/>
 </RelativeLayout>

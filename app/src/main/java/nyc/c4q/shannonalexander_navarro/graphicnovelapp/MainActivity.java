@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.recyclerViewID);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(llm);
-        recyclerView.setHasFixedSize(true);
-        llm.scrollToPositionWithOffset(0, 20);
 
         listOfNovels= new ArrayList<>();
 
@@ -43,9 +41,6 @@ public class MainActivity extends AppCompatActivity {
             novels.add(new Novel(title));
         }
         //Log.d("title",title);
-
-
-
         initializeAdapter();
     }
 
